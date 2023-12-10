@@ -16,8 +16,8 @@ const copyrightDiv=document.createElement("div");copyrightDiv.style.cssText="pos
 //modal
 iModal.showModal({
   "useInnerHTML": true,
-  "title" : "DevHaxx",
-  "description" : "DevHaxx Created by discord.gg/haxx | devhaxx.xyz",
+  "title" : "Iready Cheat",
+  "description" : "Iready Cheat Created by Lordapan | ",
   "width" : "610px",
   "callback" : iModal.closeModal,
 });
@@ -57,12 +57,12 @@ UI.innerHTML = `<div id="devhaxx" style="position: absolute; top: 158px; left: 1
     </div>
     
     <div style="font-weight: bold; font-size: 12px; background: text-align: left;color: white">
-        devhaxx.xyz | discord.gg/haxx
+        nothing | nothing
     </div>
 </div>
 `;
 
-// Zack was here
+
 
 document.body.appendChild(UI);
 window.dragElement(UI.firstElementChild, UI);
